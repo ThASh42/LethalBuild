@@ -5,14 +5,16 @@ find_steam_game_folder() {
     echo "Searching for Lethal Company game directory..."
 
     # Check different common paths for the game folder (adjust as needed)
-    if [ -d "$HOME/.steam/steam/steamapps/common/Lethal Company" ]; then
-        GAME_DIR="$HOME/.steam/steam/steamapps/common/Lethal Company"
-    elif [ -d "$HOME/.local/share/Steam/steamapps/common/Lethal Company" ]; then
-        GAME_DIR="$HOME/.local/share/Steam/steamapps/common/Lethal Company"
-    elif [ -d "/mnt/c/Program Files (x86)/Steam/steamapps/common/Lethal Company" ]; then
-        GAME_DIR="/mnt/c/Program Files (x86)/Steam/steamapps/common/Lethal Company"
-    elif [ -d "/mnt/d/SteamLibrary/steamapps/common/Lethal Company" ]; then
-        GAME_DIR="/mnt/d/SteamLibrary/steamapps/common/Lethal Company"
+    if [ -d "$HOME\.steam\steam\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="$HOME\.steam\steam\steamapps\common\Lethal Company"
+    elif [ -d "$HOME\.local\share\Steam\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="$HOME\.local\share\Steam\steamapps\common\Lethal Company"
+    elif [ -d "\mnt\c\Program Files (x86)\Steam\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="\mnt\c\Program Files (x86)\Steam\steamapps\common\Lethal Company"
+    elif [ -d "\mnt\d\SteamLibrary\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="\mnt\d\SteamLibrary\steamapps\common\Lethal Company"
+    elif [ -d "D:\SteamLibrary\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="D:\SteamLibrary\steamapps\common\Lethal Company"
     else
         echo "Could not find the Lethal Company directory. Please enter the path manually:"
         read -r GAME_DIR
@@ -40,17 +42,9 @@ install_mods() {
     fi
 }
 
-# Function to clean up by deleting the cloned repo
-cleanup() {
-    echo "Deleting cloned repository files..."
-    cd .. || exit
-    rm -rf "$(basename "$PWD")"
-    echo "Cleanup complete."
-}
-
 # Main script execution
 find_steam_game_folder
 install_mods
-cleanup
 
 echo "Installation complete."
+sleep 3s
