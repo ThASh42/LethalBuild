@@ -43,7 +43,7 @@ EXIT /B 0
 :install_mods
 echo Copying BepInEx to game directory...
 IF EXIST "BepInEx\" (
-  xcopy /e /i "BepInEx" "%GAME_DIR%\BepInEx"
+  xcopy /e /i /y "BepInEx" "%GAME_DIR%\BepInEx"
   echo Mods installed successfully.
 ) ELSE (
   echo Error: BepInEx folder not found in the repository.
