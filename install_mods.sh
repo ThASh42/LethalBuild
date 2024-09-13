@@ -15,12 +15,14 @@ find_steam_game_folder() {
         GAME_DIR="\mnt\d\SteamLibrary\steamapps\common\Lethal Company"
     elif [ -d "D:\SteamLibrary\steamapps\common\Lethal Company" ]; then
         GAME_DIR="D:\SteamLibrary\steamapps\common\Lethal Company"
+    elif [ -d "C:\Program Files (x86)\Steam\steamapps\common\Lethal Company" ]; then
+        GAME_DIR="C:\Program Files (x86)\Steam\steamapps\common\Lethal Company"
     else
         echo "Could not find the Lethal Company directory. Please enter the path manually:"
         read -r GAME_DIR
     fi
 
-    # Check if the game folder exists
+    # Check if the game folder exists C:\Program Files (x86)\Steam\steamapps\common\Lethal Company
     if [ -d "$GAME_DIR" ]; then
         echo "Lethal Company found at: $GAME_DIR"
     else
@@ -47,4 +49,13 @@ find_steam_game_folder
 install_mods
 
 echo "Installation complete."
+
+# Navigate to the parent directory
+cd ..
+# Remove the LethalBuild-master directory
+echo "Removing the LethalBuild-master directory..."
+rm -rf LethalBuild-master
+
+echo "Cleanup complete."
+
 sleep 3s
