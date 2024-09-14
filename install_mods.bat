@@ -41,6 +41,12 @@ IF EXIST "%GAME_DIR%\" (
 EXIT /B 0
 
 :install_mods
+echo Deleting existing BepInEx folder in game directory if it exists...
+IF EXIST "%GAME_DIR%\BepInEx\" (
+  rd /s /q "%GAME_DIR%\BepInEx"
+  echo Previous BepInEx folder deleted.
+)
+
 echo Copying BepInEx to game directory...
 IF EXIST "BepInEx\" (
   xcopy /e /i /y "BepInEx" "%GAME_DIR%\BepInEx"
