@@ -1,6 +1,6 @@
 ### Download from Server:
 ```cmd
-`curl -L https://github.com/ThASh42/LethalBuild/archive/master.zip -o LethalBuild.zip`
+curl -L https://github.com/ThASh42/LethalBuild/archive/master.zip -o LethalBuild.zip
 ```
 
 ### Download to the game:
