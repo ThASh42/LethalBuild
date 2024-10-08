@@ -23,36 +23,30 @@
 [Message:   BepInEx] Preloader finished
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
-[Info   :   BepInEx] 61 plugins to load
+[Info   :   BepInEx] 69 plugins to load
 [Warning:   BepInEx] Plugin [BetterPaycheck 0.9.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Custom Boombox Music 1.4.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Custom FOV 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [DiscountAlert 2.3.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [Fix Resolution 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [HealthMetrics 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
-[Info   :   BepInEx] Loading [Terminal Api 1.5.4]
-[Info   :Terminal Api] Plugin TerminalApi is loaded!
-[Info   :   BepInEx] Loading [Terminal Clock 1.0.5]
-[Info   :Terminal Clock] Plugin Terminal Clock is loaded!
-[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
-[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
-[Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
-[Info   :   BepInEx] Loading [Terminal History 1.0.4]
-[Info   :Terminal History] 
-
-
-Plugin Terminal History is loaded!
-
-
-
-[Info   :   BepInEx] Loading [CustomPaintings 1.1.0]
-[Info   :Boniato.CustomPaintings] ------- CustomPaintings loaded -------
-[Info   :   BepInEx] Loading [HealthMetrics 1.0.0]
-[Info   :Matsuura.HealthMetrics] HealthMetrics Awake
-[Info   :   BepInEx] Loading [InsanityDisplay 1.2.2]
-[Info   :InsanityDisplay] RGBA(0.451, 0.000, 0.651, 1.000) RGBA(0.451, 0.000, 0.651, 2.000)
-[Debug  :InsanityDisplay] Found Matsuura.HealthMetrics
-[Info   :InsanityDisplay] InsanityDisplay 1.2.2 loaded
+[Warning:   BepInEx] Plugin [ItemQuickSwitchMod 1.1.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Suit Saver 1.2.1] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Warning:   BepInEx] Plugin [Unlimited Sell 1.0.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
+[Info   :   BepInEx] Loading [LethalConfig 1.4.2]
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Slider"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Slider"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Step Slider"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Bool Checkbox"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Enum Dropdown"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Multiline Text Input"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig.ConfigItems.GenericButtonConfigItem"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Input"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Input"
+[Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Text Input Dropdown"
+[Info   :ainavt.lc.lethalconfig] Finished loading assets.
+[Info   :ainavt.lc.lethalconfig] LethalConfig loaded!
 [Info   :   BepInEx] Loading [MoreCompany 1.9.4]
 [Warning:MoreCompany] SpringManAIIntervalPatch failed to replace newPlayerCount
 [Warning:MoreCompany] SpectateNextPlayer failed to replace newPlayerCount: 0/2
@@ -83,7 +77,12 @@ Plugin Terminal History is loaded!
 [Info   :MoreCompany] Loaded cosmetic: builtin.tophat from bundle
 [Info   :MoreCompany] Loaded cosmetic: builtin.watch from bundle
 [Info   :MoreCompany] Loading USER COSMETICS...
+[Info   :MoreCompany] Loaded cosmetic: puffy.kickme from bundle
 [Info   :MoreCompany] Loaded MoreCompany FULLY
+[Info   :   BepInEx] Loading [Lethal Company Input Utils 0.7.7]
+[Info   :ainavt.lc.lethalconfig] Registered config "Lethal Company Input Utils/General/Locale"
+[Info   :Lethal Company Input Utils] Registered InputUtilsExtendedMouse Layout Override!
+[Info   :Lethal Company Input Utils] InputUtils 0.7.7 has finished loading!
 [Info   :   BepInEx] Loading [TooManyEmotes 2.2.4]
 [Info   :TooManyEmotes-2.2.4] BindingConfigs
 [Info   :TooManyEmotes-2.2.4] Initializing custom emote hotkeys.
@@ -100,28 +99,145 @@ Plugin Terminal History is loaded!
 [Info   :TooManyEmotes-2.2.4] Loading 143 dmca-free audio clips.
 [Info   :TooManyEmotes-2.2.4] Loading 152 dmca audio clips.
 [Info   :TooManyEmotes-2.2.4] TooManyEmotes finished loading!
-[Info   :   BepInEx] Loading [Custom Emotes API 1.15.4]
-[Info   :Custom Emotes API] display name wasn't set, using 
-[Info   :Custom Emotes API] Failed to get Proc Address to wine_get_version!
-[Info   :   BepInEx] Loading [Enemy Interactions 1.1.9]
+[Info   :   BepInEx] Loading [ModelReplacementAPI 2.4.10]
+[Info   :meow.ModelReplacementAPI] Plugin meow.ModelReplacementAPI is loaded!
+[Info   :   BepInEx] Loading [More Suits 1.4.3]
+[Info   :More Suits] Plugin More Suits is loaded!
+[Info   :   BepInEx] Loading [VALORANT_AGENTS 1.0.0]
+[Info   :   Console] VALORANT_MOD_LETHAL.valorant_bundle
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRASTRA to suit name astra.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRBREACH to suit name breach.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRBRIMSTONE to suit name brimstone.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRCHAMBER to suit name chamber.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRCLOVE to suit name clove.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRCYPHER to suit name cypher.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRDEADLOCK to suit name deadlock.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRFADE to suit name fade.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRGEKKO to suit name gekko.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRHARBOR to suit name harbor.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRISO to suit name iso.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRJETT to suit name jett.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRKAYO to suit name kayo.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRKILLJOY to suit name killjoy.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRNEON to suit name neon.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MROMEN to suit name omen.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRPHOENIX to suit name phoenix.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRRAZE to suit name raze.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRREYNA to suit name reyna.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRSAGE to suit name sage.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRSKYE to suit name skye.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRSOVA to suit name sova.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRVIPER to suit name viper.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRVYSE to suit name vyse.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRWINGMAN to suit name wingman.
+[Info   :meow.ModelReplacementAPI] Registering body replacement type ModelReplacement.MRYORU to suit name yoru.
+[Info   :VALORANT_AGENTS] Plugin astrodart_VALORANT_AGENTS is loaded!
+[Info   :   BepInEx] Loading [Terminal Api 1.5.4]
+[Info   :Terminal Api] Plugin TerminalApi is loaded!
+[Info   :   BepInEx] Loading [Terminal Clock 1.0.5]
+[Info   :Terminal Clock] Plugin Terminal Clock is loaded!
+[Info   :   BepInEx] Loading [Terminal History 1.0.4]
+[Info   :Terminal History] 
+
+
+Plugin Terminal History is loaded!
+
+
+
+[Info   :   BepInEx] Loading [BetterMonitor 1.0.0]
+[Info   :BetterMonitor] Loading scrap icons from D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\ScrapIcons
+[Info   :BetterMonitor] Added icon for scrap value 0
+[Info   :BetterMonitor] Added icon for scrap value 59
+[Info   :BetterMonitor] Added icon for scrap value 89
+[Info   :BetterMonitor] Plugin BetterMonitor is loaded!
+[Info   :   BepInEx] Loading [HealthMetrics 1.0.0]
+[Info   :Matsuura.HealthMetrics] HealthMetrics Awake
+[Info   :   BepInEx] Loading [InsanityDisplay 1.2.2]
+[Info   :InsanityDisplay] RGBA(0.451, 0.000, 0.651, 1.000) RGBA(0.451, 0.000, 0.651, 2.000)
+[Debug  :InsanityDisplay] Found Matsuura.HealthMetrics
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Meter enabled"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Color of the Meter"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Accurate meter"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Sanity Meter"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Always Show"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Display Settings/Always Centered Player Icon"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable LCCrouchHUD compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable An0n Patches compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable Elads HUD compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable GeneralImprovements compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable HealthMetrics compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable DamageMetrics compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable LethalCompanyVR compatibility"
+[Info   :ainavt.lc.lethalconfig] Registered config "InsanityDisplay/Mod Compatibility Settings/Enable InfectedCompany compatibility"
+[Debug  :InsanityDisplay] Added entries to LethalConfig
+[Debug  :InsanityDisplay] Found ainavt.lc.lethalconfig
+[Info   :InsanityDisplay] InsanityDisplay 1.2.2 loaded
+[Info   :   BepInEx] Loading [StaticNetcodeLib 1.1.1]
+[Debug  :StaticNetcodeLib] Patching...
+[Debug  :StaticNetcodeLib] Finished patching!
+[Info   :StaticNetcodeLib] Xilophor.StaticNetcodeLib v1.1.1 has loaded!
+[Info   :   BepInEx] Loading [Coroner 2.2.0]
+[Debug  :   Coroner] Injecting patch into ForestGiantAI.AnimationEventA...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch into BushWolf.OnCollideWithPlayer...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch into PlayerControllerB.DamagePlayerFromOtherClientClientRpc...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Done with all PlayerControllerBDamagePlayerFromOtherClientClientRpcPatch patches.
+[Debug  :   Coroner] Injecting patch into VehicleController.DestroyCar...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting kill patches into VehicleController.DamagePlayer...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting damage patches into VehicleController.DamagePlayerInVehicle...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] VehicleController.DamagePlayerInVehicle patch done.
+[Debug  :   Coroner] Injecting patch #1 into VehicleCollisionTrigger.OnTriggerEnter...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch #2 into VehicleCollisionTrigger.OnTriggerEnter...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Done with all VehicleCollisionTriggerOnTriggerEnterPatch patches.
+[Debug  :   Coroner] Injecting patch #1 into Landmine.SpawnExplosion...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch #2 into Landmine.SpawnExplosion...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Done with all LandmineSpawnExplosionPatch patches.
+[Debug  :   Coroner] Injecting patch into Turret.Update...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch into AnimatedObjectFloatSetter.KillPlayerAtPoint...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch into SpikeRoofTrap.OnTriggerStay...
+[Debug  :   Coroner] Done.
+[Debug  :   Coroner] Injecting patch into OutOfBoundsTrigger.OnTriggerEnter...
+[Debug  :   Coroner] Done.
+[Info   :   Coroner] Plugin Coroner (com.elitemastereric.coroner) is loaded!
+[Info   :   Coroner] Coroner loading language support: en-us
+[Info   :   Coroner] Loading language data from config folder: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\config/EliteMasterEric-Coroner
+[Info   :   Coroner] Loading 0 additional language data files from config folder
+[Info   :   Coroner] Success, loaded 82 types of language tags with 190 total entries.
+[Info   :   Coroner] Coroner loading fallback language support: en-us
+[Info   :   Coroner] Loading language data from config folder: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\config/EliteMasterEric-Coroner
+[Info   :   Coroner] Loading 0 additional language data files from config folder
+[Info   :   Coroner] Success, loaded 82 types of language tags with 190 total entries.
+[Info   :   BepInEx] Loading [CullFactory 1.4.2]
+[Error  :CullFactory] CullFactory's Burst assembly 'lib_burst_generated.data' was not found, culling may be slower than normal.
 [Info   :   BepInEx] Loading [LethalExpansion(core) 1.3.15]
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loading...
 [Info   :LethalExpansion(core)] LethalExpansion is not present, all is well!
 [Info   :LethalExpansion(core)] Plugins folder found: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
 [Info   :LethalExpansion(core)] Mod path is: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
 [Warning:LethalExpansion(core)] LethalExpansion is Rooting the Plugins folder, this is not recommended. D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
-[Info   :LethalExpansion(core)] Module 'MinecraftScraps' v1.4.2.0 was loaded in 142ms
-[Warning:LethalExpansion(core)] An AssetBundle with the same name 'minecraftscraps.lem' has already been loaded
 [Info   :LethalExpansion(core)] Water support applied to the HDRenderPipelineAsset.
 [Info   :LethalExpansion(core)] Plugin: LethalExpansion(core) (version: 1.3.15) is loaded.
 [Info   :   BepInEx] Loading [ShipLobby 1.0.2]
-[Info   :   BepInEx] Loading [ShipLoot 1.1]
 [Info   :   BepInEx] Loading [Custom Boombox Music 1.4.0]
 [Info   :Custom Boombox Music] Loading...
 [Info   :Custom Boombox Music] Created directory at D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music
 [Info   :Custom Boombox Music] Initializing config...
 [Info   :Custom Boombox Music] Config initialized!
 [Info   :Custom Boombox Music] Loading Complete!
+[Info   :   BepInEx] Loading [Custom Emotes API 1.15.4]
+[Info   :Custom Emotes API] display name wasn't set, using 
+[Info   :Custom Emotes API] Failed to get Proc Address to wine_get_version!
 [Info   :   BepInEx] Loading [LbToKg 1.0.0]
 [Info   :   BepInEx] Loading [ControlCompany 1.3.2]
 [Info   :ControlCompany.ControlCompany] Loaded ControlCompany. Patching.
@@ -135,15 +251,21 @@ Plugin Terminal History is loaded!
 [Info   :   OpenLib] OpenLib is loading with version 0.1.8!
 [Info   :   OpenLib] Binding configuration settings
 [Info   :   OpenLib] OpenLib load complete!
+[Info   :   BepInEx] Loading [suitsTerminal 1.4.5]
+[Info   :suitsTerminal] suitsTerminal version 1.4.5 has been started!
+[Info   :suitsTerminal] Reading configuration settings
+[Info   :   BepInEx] Loading [ItemQuickSwitchMod 1.1.0]
+[Info   :ItemQuickSwitchMod] ItemQuickSwitchMod is creating binds!
+[Info   :ItemQuickSwitchMod] Plugin ItemQuickSwitchMod is loaded!
 [Info   :   BepInEx] Loading [FixRPCLag 1.0.0]
 [Info   : FixRPCLag] Plugin dev.bobbie.fixrpclag is loaded!
 [Info   :   BepInEx] Loading [DiscountAlert 2.3.0.0]
 [Info   :DiscountAlert] Plugin discount.alert is loaded!
 [Info   :   BepInEx] Loading [DoorFix 1.0.0]
 [Info   :   DoorFix] Plugin DoorFix is loaded!
-[Info   :   BepInEx] Loading [OuijaBoard 1.5.3]
-[Info   : Unity Log] Ouija Board store enabled at 100 credits
-[Info   :OuijaBoard] OuijaBoard loaded!
+[Info   :   BepInEx] Loading [DoorlessStorage 1.0.0]
+[Info   :DoorlessStorage] Plugin DoorlessStorage is loading!
+[Info   :DoorlessStorage] Plugin DoorlessStorage is loaded!
 [Info   :   BepInEx] Loading [LethalLib 0.16.1]
 [Info   : LethalLib] LethalLib loaded!!
 [Info   :   BepInEx] Loading [Sell Bodies 1.10.1]
@@ -180,20 +302,16 @@ Plugin Terminal History is loaded!
 [Info   :ObjectVolumeController-1.1.0] BindingConfigs
 [Info   :ObjectVolumeController-1.1.0] Initializing hotkeys.
 [Info   :ObjectVolumeController] ObjectVolumeController loaded
+[Info   :   BepInEx] Loading [Suit Saver 1.2.1]
+[Info   : Unity Log] [SS]: Suit Saver loaded successfully!
 [Info   :   BepInEx] Loading [HoldScanButton 1.0.0]
 [Info   :HoldScanButton] Plugin HoldScanButton has loaded!
-[Info   :   BepInEx] Loading [Needy Cats 1.2.2]
-[Info   :Jordo.NeedyCats] Initialized Needy Cats
 [Info   :   BepInEx] Loading [Maxwell Scrap 1.0.1]
 [Info   :   BepInEx] Loading [Custom FOV 1.0.0]
 [Info   :   BepInEx] Loading [Fix Resolution 1.0.0]
-[Info   :   BepInEx] Loading [FastSwitchPlayerViewInRadar 1.3.1]
-[Info   :FastSwitchPlayerViewInRadar] krystall9.FastSwitchPlayerViewInRadar plugin has been loaded!
 [Info   :   BepInEx] Loading [LC Sound Tool 1.5.1]
 [Info   :LCSoundTool] Plugin LCSoundTool is loaded!
 [Info   :   BepInEx] Loading [SignalTranslatorAligner 1.0.0]
-[Info   :   BepInEx] Loading [LethalRichPresence 0.2.0]
-[Info   :LethalRichPresence] Plugin LethalRichPresence is loaded!
 [Info   :   BepInEx] Loading [LethalSnapProject 1.5.7]
 [Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Drop/FOLEY_LS_POL_Drop_
 [Info   :LethalSnapProject] Finish Loading : Assets/PolaroidMod/Audio/FOLEY_LS_POL_Equip/FOLEY_LS_POL_Equip_
@@ -239,6 +357,8 @@ Plugin Terminal History is loaded!
 [Info   : OldLLLLib] No LLL found!
 [Info   :   BepInEx] Loading [MrovLib 0.2.4]
 [Info   :   MrovLib] Plugin MrovLib is loaded!
+[Info   :   BepInEx] Loading [Unlimited Sell 1.0.0]
+[Info   :Unlimited Sell] Unlimited Sell Mod Loaded
 [Info   :   BepInEx] Loading [PintoBoy 2.0.0]
 [Warning: Unity Log] The referenced script (PintoCam) on this Behaviour is missing!
 [Warning: Unity Log] The referenced script on this Behaviour (Game Object '2D Cam') is missing!
@@ -255,6 +375,8 @@ Plugin Terminal History is loaded!
 [Info   : Unity Log] Pintoboy initialized
 [Info   :   BepInEx] Loading [Better Item Scan 3.0.0.2]
 [Info   :PopleZoo.BetterItemScan] Plugin BetterItemScan is loaded!
+[Info   :   BepInEx] Loading [PushCompany 1.2.0]
+[Info   :PushCompany] PushCompany has initialized!
 [Info   :   BepInEx] Loading [Flashlight 1.5.0]
 [Info   :Flashlight] ------Flashlight done.------
 [Info   :   BepInEx] Loading [WalkieUse 1.5.0]
@@ -318,7 +440,7 @@ HarmonyLib.Public.Patching.ManagedMethodPatcher.Manipulator (MonoMod.Cil.ILConte
 MonoMod.Cil.ILContext.Invoke (MonoMod.Cil.ILContext+Manipulator manip) (at <6733e342b5b549bba815373898724469>:IL_0087)
 MonoMod.RuntimeDetour.ILHook+Context.InvokeManipulator (Mono.Cecil.MethodDefinition def, MonoMod.Cil.ILContext+Manipulator cb) (at <4e2760c7517c4ea79c633d67e84b319f>:IL_0012)
 (wrapper dynamic-method) MonoMod.RuntimeDetour.ILHook+Context.DMD<MonoMod.RuntimeDetour.ILHook+Context::Refresh>(MonoMod.RuntimeDetour.ILHook/Context)
-(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?549066606(object)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<MonoMod.RuntimeDetour.ILHook+Context::Refresh>?1844204910(object)
 HarmonyLib.Internal.RuntimeFixes.StackTraceFixes.OnILChainRefresh (System.Object self) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0000)
 MonoMod.RuntimeDetour.ILHook.Apply () (at <4e2760c7517c4ea79c633d67e84b319f>:IL_0059)
 HarmonyLib.Public.Patching.ManagedMethodPatcher.DetourTo (System.Reflection.MethodBase replacement) (at <474744d65d8e460fa08cd5fd82b5d65f>:IL_0047)
@@ -359,6 +481,17 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   :   BepInEx] Loading [Yippee tbh mod 1.2.4]
 [Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loading.
 [Info   :sunnobunno.YippeeMod] sunnobunno.YippeeMod is loaded. Yippee!!!
+[Info   :   BepInEx] Loading [LC Always Hear Active Walkies 1.4.4]
+[Info   :suskitech.LCAlwaysHearActiveWalkie] \ /
+[Info   :suskitech.LCAlwaysHearActiveWalkie] /|\
+[Info   :suskitech.LCAlwaysHearActiveWalkie]  |----|
+[Info   :suskitech.LCAlwaysHearActiveWalkie]  |[__]| Always Hear Active Walkies
+[Info   :suskitech.LCAlwaysHearActiveWalkie]  |.  .| Version 1.4.4 Loaded
+[Info   :suskitech.LCAlwaysHearActiveWalkie]  |____|
+[Info   :suskitech.LCAlwaysHearActiveWalkie] 
+[Info   :suskitech.LCAlwaysHearActiveWalkie] AudibleDistance: 12
+[Info   :suskitech.LCAlwaysHearActiveWalkie] WalkieRecordingRange: 20
+[Info   :suskitech.LCAlwaysHearActiveWalkie] PlayerToPlayerSpatialHearingRange: 20
 [Info   :   BepInEx] Loading [BetterPaycheck 0.9.0]
 [Info   :Swaggies.BetterPaycheck] BetterPaycheck up and running.
 [Info   :   BepInEx] Loading [CoilHeadStare 1.0.9]
@@ -375,46 +508,47 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Warning:TerminalFormatter] Registered node CannotAfford
 [Warning: Unity Log] TerminalNode must be instantiated using the ScriptableObject.CreateInstance method instead of new TerminalNode.
 [Info   :TerminalFormatter] Plugin TerminalFormatter is loaded!
+[Info   :   BepInEx] Loading [ShipWindows 1.10.2]
+[Info   :ShipWindows] 
+Current settings:
+    Vanilla Mode:       False
+    Shutters:           True
+    Hide Space Props:   False
+    Space Sky:          SPACE_HDRI
+    Bottom Lights:      False
+    Posters:            False
+    Sky Rotation:       0,1
+    Sky Resolution:     0
+    Windows Unlockable: False
+    Window 1 Enabled:   True
+    Window 2 Enabled:   True
+    Window 3 Enabled:   True
+    Window 4 Enabled:   True
+
+[Info   :ShipWindows] Loading ShipWindow AssetBundle...
+[Debug  :ShipWindows] Searching for start: ldfld bool StartOfRound::hangarDoorsClosed
+[Debug  :ShipWindows] Searching for end: ret NULL
+[Debug  :ShipWindows] Found start at: 26
+[Debug  :ShipWindows] Found end at: 54
+[Info   :ShipWindows] Found compatible mod:  com.github.lethalmods.lethalexpansioncore 1.3.15
+[Info   :ShipWindows] Did not locate 4K skybox bundle.
+[Info   :ShipWindows] Loading Wesley voice lines...
+[Error  :ShipWindows] Failed to load AudioClip: HTTP/1.1 404 Not Found
+[Error  :ShipWindows] Failed to load voice line 'ShutterClose'!
+[Error  :ShipWindows] Path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
+[Error  :ShipWindows] Failed to load AudioClip: HTTP/1.1 404 Not Found
+[Error  :ShipWindows] Failed to load voice line 'ShutterOpen'!
+[Error  :ShipWindows] Path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
+[Error  :ShipWindows] Failed to load AudioClip: HTTP/1.1 404 Not Found
+[Error  :ShipWindows] Failed to load voice line 'SellCounter1'!
+[Error  :ShipWindows] Path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins
+[Info   :ShipWindows] Loaded successfully!
+[Info   :   BepInEx] Loading [TooManySuits 1.1.2]
 [Info   :   BepInEx] Loading [Late Company 1.0.17]
 [Info   :Late Company] Late Company loaded!
-[Info   :   BepInEx] Loading [WTF_Boom 1.0.0]
-[Info   :  WTF_Boom] Plugin WTF_Boom is loaded!
-[Warning:LCSoundTool] Requested directory at BepInEx/Plugins/JAMESDEV-WTF_Boom does not exist!
-[Warning:LCSoundTool] Requested audio file does not exist at path D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\JAMESDEV-WTF_Boom\MineTrigger.wav!
-[Debug  :LCSoundTool] Looking for audio file from mod root instead at D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\JAMESDEV-WTF_Boom\MineTrigger.wav...
-[Warning:LCSoundTool] Requested audio file does not exist at mod root path D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\JAMESDEV-WTF_Boom\MineTrigger.wav!
-[Warning:LCSoundTool] Failed to load AudioClip MineTrigger.wav from invalid path at D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\JAMESDEV-WTF_Boom\MineTrigger.wav!
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-LCSoundTool.SoundTool.GetAudioClip (System.String modFolder, System.String subFolder, System.String soundName, LCSoundTool.SoundTool+AudioType audioType) (at <5eae0510abcc4fbda4782a76ab74118d>:IL_0477)
-LCSoundTool.SoundTool.GetAudioClip (System.String modFolder, System.String subFolder, System.String soundName) (at <5eae0510abcc4fbda4782a76ab74118d>:IL_00F1)
-LCSoundTool.SoundTool.GetAudioClip (System.String modFolder, System.String soundName) (at <5eae0510abcc4fbda4782a76ab74118d>:IL_0001)
-WTF_Boom.Plugin.Awake () (at <8d4762a854ec4005ac4157d3e4c8c5bf>:IL_0010)
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
-
-[Info   :   BepInEx] Loading [More Suits 1.4.3]
-[Info   :More Suits] Plugin More Suits is loaded!
 [Info   :   BepInEx] Loading [TwoRadarMaps 1.4.2]
 [Message:   BepInEx] Chainloader startup complete
 [Info   :LethalExpansion(core)] Loading scene 'InitSceneLaunchOptions'
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretBerserkMode.wav
-[Info   : Unity Log] Sound replaced: TurretBerserkMode (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretBerserkMode.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretBerserkMode.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretBerserkMode.wav with length of 10,366!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFire.wav
-[Info   : Unity Log] Sound replaced: TurretFire (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFire.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFire.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFire.wav with length of 1,812!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFireDistance.wav
-[Info   : Unity Log] Sound replaced: TurretFireDistance (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFireDistance.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFireDistance.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretFireDistance.wav with length of 1,812!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretSeePlayer.wav
-[Info   : Unity Log] Sound replaced: TurretSeePlayer (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretSeePlayer.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretSeePlayer.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\TurretSeePlayer.wav with length of 0,879!
 [Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\NewProfitQuota.mp3
 [Info   : Unity Log] Sound replaced: NewProfitQuota (File Extension = mp3)
 [Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\NewProfitQuota.mp3 from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\NewProfitQuota.mp3
@@ -427,96 +561,159 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   : Unity Log] Sound replaced: PhoneScream (File Extension = wav)
 [Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\BenPhoneScream\PhoneScream.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\BenPhoneScream\PhoneScream.wav
 [Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\BenPhoneScream\PhoneScream.wav with length of 10,733!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineBeep.wav
-[Info   : Unity Log] Sound replaced: MineBeep (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineBeep.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineBeep.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineBeep.wav with length of 0,096!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonate.wav
-[Info   : Unity Log] Sound replaced: MineDetonate (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonate.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonate.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonate.wav with length of 7,317!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonateDistance.wav
-[Info   : Unity Log] Sound replaced: MineDetonateDistance (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonateDistance.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonateDistance.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineDetonateDistance.wav with length of 12,054!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineTrigger.wav
-[Info   : Unity Log] Sound replaced: MineTrigger (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineTrigger.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineTrigger.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\JAMESDEV-WTF_Boom\MineTrigger.wav with length of 0,666!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorClose.wav
-[Info   : Unity Log] Sound replaced: BigDoorClose (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorClose.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorClose.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorClose.wav with length of 0,529!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorOpen.wav
-[Info   : Unity Log] Sound replaced: BigDoorOpen (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorOpen.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorOpen.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\BigDoorOpen.wav with length of 0,553!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose1.wav
-[Info   : Unity Log] Sound replaced: DoorClose1 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose1.wav with length of 0,301!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose2.wav
-[Info   : Unity Log] Sound replaced: DoorClose2 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorClose2.wav with length of 0,301!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen1.wav
-[Info   : Unity Log] Sound replaced: DoorOpen1 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen1.wav with length of 0,361!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen2.wav
-[Info   : Unity Log] Sound replaced: DoorOpen2 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorOpen2.wav with length of 0,361!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam1.wav
-[Info   : Unity Log] Sound replaced: DoorSlam1 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam1.wav with length of 0,54!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam2.wav
-[Info   : Unity Log] Sound replaced: DoorSlam2 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorSlam2.wav with length of 0,54!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock.wav
-[Info   : Unity Log] Sound replaced: DoorUnlock (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock.wav with length of 0,33!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock2.wav
-[Info   : Unity Log] Sound replaced: DoorUnlock2 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\DoorUnlock2.wav with length of 0,33!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorOpen1.wav
-[Info   : Unity Log] Sound replaced: HangarDoorOpen1 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorOpen1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorOpen1.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorOpen1.wav with length of 0,841!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorShut.wav
-[Info   : Unity Log] Sound replaced: HangarDoorShut (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorShut.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorShut.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\HangarDoorShut.wav with length of 0,871!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchClose.wav
-[Info   : Unity Log] Sound replaced: MetalHatchClose (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchClose.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchClose.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchClose.wav with length of 0,438!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchOpen.wav
-[Info   : Unity Log] Sound replaced: MetalHatchOpen (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchOpen.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchOpen.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Minecraft Doors\MetalHatchOpen.wav with length of 0,474!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckChristmasFar.wav
-[Info   : Unity Log] Sound replaced: IcecreamTruckChristmasFar (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckChristmasFar.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckChristmasFar.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckChristmasFar.wav with length of 12,247!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckFar.wav
-[Info   : Unity Log] Sound replaced: IcecreamTruckFar (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckFar.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckFar.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckFar.wav with length of 12,247!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2.wav
-[Info   : Unity Log] Sound replaced: IcecreamTruckV2 (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2.wav with length of 12,066!
-[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2Christmas.wav
-[Info   : Unity Log] Sound replaced: IcecreamTruckV2Christmas (File Extension = wav)
-[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2Christmas.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2Christmas.wav
-[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\SecretMod\IcecreamTruckV2Christmas.wav with length of 12,066!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFire.wav
+[Info   : Unity Log] Sound replaced: TurretFire (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFire.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFire.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFire.wav with length of 3,633!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFireDistance.wav
+[Info   : Unity Log] Sound replaced: TurretFireDistance (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFireDistance.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFireDistance.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretFireDistance.wav with length of 3,633!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretSeePlayer.wav
+[Info   : Unity Log] Sound replaced: TurretSeePlayer (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretSeePlayer.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretSeePlayer.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\TurretSeePlayer.wav with length of 0,879!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Valorant's TP sound\ShipTeleporterBeam.mp3
+[Info   : Unity Log] Sound replaced: ShipTeleporterBeam (File Extension = mp3)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Valorant's TP sound\ShipTeleporterBeam.mp3 from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Valorant's TP sound\ShipTeleporterBeam.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\Valorant's TP sound\ShipTeleporterBeam.mp3 with length of 3,265!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretActivate.wav
+[Info   : Unity Log] Sound replaced: TurretActivate (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretActivate.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretActivate.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretActivate.wav with length of 4,911!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretDeactivate.wav
+[Info   : Unity Log] Sound replaced: TurretDeactivate (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretDeactivate.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretDeactivate.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\INeedMoreBullets\Custom\TurretDeactivate.wav with length of 3,24!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\BaboonEnterFight.wav
+[Info   : Unity Log] Sound replaced: BaboonEnterFight (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\BaboonEnterFight.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\BaboonEnterFight.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\BaboonEnterFight.wav with length of 10,814!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\Caw1.wav
+[Info   : Unity Log] Sound replaced: Caw1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\Caw1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\Caw1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\Caw1.wav with length of 1,018!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream1.wav
+[Info   : Unity Log] Sound replaced: CawScream1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream1.wav with length of 1,018!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream2.wav
+[Info   : Unity Log] Sound replaced: CawScream2 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream2.wav with length of 1,018!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream3.wav
+[Info   : Unity Log] Sound replaced: CawScream3 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream3.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream3.wav with length of 1,488!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream4.wav
+[Info   : Unity Log] Sound replaced: CawScream4 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream4.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream4.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream4.wav with length of 1,488!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream5.wav
+[Info   : Unity Log] Sound replaced: CawScream5 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream5.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream5.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Babobons\CawScream5.wav with length of 1,488!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Chukambra\Frighten1.wav
+[Info   : Unity Log] Sound replaced: Frighten1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Chukambra\Frighten1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Chukambra\Frighten1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Chukambra\Frighten1.wav with length of 15,725!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer-1.mp3
+[Info   : Unity Log] Sound replaced: KillPlayer (Percentage = 1%) (File Extension = mp3)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer-1.mp3 from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer-1.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer-1.mp3 with length of 10,501!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer.mp3
+[Info   : Unity Log] Sound replaced: KillPlayer (File Extension = mp3)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer.mp3 from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer.mp3
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Dogs\KillPlayer.mp3 with length of 2,351!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Giant\FGiantEatPlayerSFX.wav
+[Info   : Unity Log] Sound replaced: FGiantEatPlayerSFX (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Giant\FGiantEatPlayerSFX.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Giant\FGiantEatPlayerSFX.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Giant\FGiantEatPlayerSFX.wav with length of 2,24!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\LockPicker\LockPickerFinish.wav
+[Info   : Unity Log] Sound replaced: LockPickerFinish (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\LockPicker\LockPickerFinish.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\LockPicker\LockPickerFinish.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\LockPicker\LockPickerFinish.wav with length of 1,29!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskAttackPlayer.wav
+[Info   : Unity Log] Sound replaced: MaskAttackPlayer (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskAttackPlayer.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskAttackPlayer.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskAttackPlayer.wav with length of 9,566!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskComedyAttach.wav
+[Info   : Unity Log] Sound replaced: MaskComedyAttach (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskComedyAttach.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskComedyAttach.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskComedyAttach.wav with length of 9,566!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry1.wav
+[Info   : Unity Log] Sound replaced: MaskCry1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry1.wav with length of 1,1!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry2.wav
+[Info   : Unity Log] Sound replaced: MaskCry2 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry2.wav with length of 1,1!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry3.wav
+[Info   : Unity Log] Sound replaced: MaskCry3 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry3.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry3.wav with length of 1,1!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry4.wav
+[Info   : Unity Log] Sound replaced: MaskCry4 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry4.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry4.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskCry4.wav with length of 1,1!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh1.wav
+[Info   : Unity Log] Sound replaced: MaskLaugh1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh1.wav with length of 1,23!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh2.wav
+[Info   : Unity Log] Sound replaced: MaskLaugh2 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh2.wav with length of 1,23!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh3.wav
+[Info   : Unity Log] Sound replaced: MaskLaugh3 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh3.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Mask\MaskLaugh3.wav with length of 1,23!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Pipe\PipeValveTwist.wav
+[Info   : Unity Log] Sound replaced: PipeValveTwist (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Pipe\PipeValveTwist.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Pipe\PipeValveTwist.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Pipe\PipeValveTwist.wav with length of 11,017!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring1.wav
+[Info   : Unity Log] Sound replaced: Spring1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring1.wav with length of 1,114!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring2.wav
+[Info   : Unity Log] Sound replaced: Spring2 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring2.wav with length of 1,254!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring3.wav
+[Info   : Unity Log] Sound replaced: Spring3 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring3.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring3.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\Spring3.wav with length of 1,254!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble1.wav
+[Info   : Unity Log] Sound replaced: SpringWobble1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble1.wav with length of 1,254!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble2.wav
+[Info   : Unity Log] Sound replaced: SpringWobble2 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble2.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble2.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Spring\SpringWobble2.wav with length of 1,254!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Sworm\EmergeFromGround1.wav
+[Info   : Unity Log] Sound replaced: EmergeFromGround1 (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Sworm\EmergeFromGround1.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Sworm\EmergeFromGround1.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Sworm\EmergeFromGround1.wav with length of 5,391!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\terminal\TerminalTypoError.wav
+[Info   : Unity Log] Sound replaced: TerminalTypoError (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\terminal\TerminalTypoError.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\terminal\TerminalTypoError.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\terminal\TerminalTypoError.wav with length of 0,992!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOff.wav
+[Info   : Unity Log] Sound replaced: WalkieTalkieOff (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOff.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOff.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOff.wav with length of 1,166!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOn.wav
+[Info   : Unity Log] Sound replaced: WalkieTalkieOn (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOn.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOn.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\WalkieTalkie\WalkieTalkieOn.wav with length of 0,996!
+[Info   : Unity Log] FilePath: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Weather\EclipseAmbience.wav
+[Info   : Unity Log] Sound replaced: EclipseAmbience (File Extension = wav)
+[Debug  :LCSoundTool] Loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Weather\EclipseAmbience.wav from path: D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Weather\EclipseAmbience.wav
+[Debug  :LCSoundTool] Finished loading AudioClip D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\plugins\CustomSounds\LethalSounds-Shouckwave\Weather\EclipseAmbience.wav with length of 62,392!
 [Warning:LCSoundTool] Networking disabled. Mod in fully client side mode, but no networked actions can take place! You can safely ignore this if you want the mod to run fully client side.
-[Info   :LethalRichPresence] Plugin LethalRichPresence is loaded!
 [Info   :ControlCompany.ControlCompany] Initial keybind load
 [Info   :ControlCompany.ControlCompany] Loading config
 [Info   :ControlCompany.ControlCompany] Done loading keybinds
@@ -533,41 +730,1089 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Error  : WalkieUse] Terminal Walkie: False
 [Info   :LethalExpansion(core)] Loading scene 'InitScene'
 [Info   :LethalExpansion(core)] Registered prefab 'itemshipanimcontainer' from 'LethalExpansion'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft diamond' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft diamond block' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft creeper' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft bee' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft villager' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft steve' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft apple' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft chest' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft pig' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft cow' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft chicken' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft sheep' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft wolf' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft anvil' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft ghast' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft pumpkin' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft spider' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft tnt' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft zombie' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft diamond sword' from 'MinecraftScraps'
-[Info   :LethalExpansion(core)] Registered scrap 'Minecraft diamond pickaxe' from 'MinecraftScraps'
 [Info   :   OpenLib] TerminalFormatter detected! Plugin: OpenLib has set compatibility bool - True
-[Info   :Jordo.NeedyCats] Added NeedyCats prefabs to Network Manager.
+[Info   :   OpenLib] Hexnet.lethalcompany.suitsaver detected! Plugin: suitsTerminal has set compatibility bool - True
 [Info   : Unity Log] [MAXWELL] Added network prefab
+[Info   :ShipWindows] Registering window prefab: Window 1
+[Info   :ShipWindows] Registering window prefab: Window 2
+[Info   :ShipWindows] Registering window prefab: Window 3
+[Info   :ShipWindows] Registering window prefab: Window 4
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
 [Info   :LethalExpansion(core)] Unloading scene: InitScene
 [Info   :MoreCompany] LANMenu startLAN Patched
 [Info   :LethalExpansion(core)] Loading scene 'MainMenu'
-[Info   : Unity Log] Returning week num: 39
-[Info   : Unity Log] week num: 39
-[Error  : Unity Log] Error while disconnecting: System.NullReferenceException: Object reference not set to an instance of an object
-  at SpectateEnemy.Patches.GameNetworkManager_Disconnect.Postfix () [0x00001] in <e8ff516edd4142a689327e0fc65cb913>:IL_0001 
-  at (wrapper dynamic-method) GameNetworkManager.DMD<GameNetworkManager::Disconnect>(GameNetworkManager)
-  at (wrapper dynamic-method) GameNetworkManager.DMD<GameNetworkManager::OnApplicationQuit>(GameNetworkManager)
-[Error  : Unity Log] Releasing render texture that is set as Camera.targetTexture!
-[Error  : Unity Log] Releasing render texture that is set as Camera.targetTexture!
-[Error  : Unity Log] Releasing render texture that is set as Camera.targetTexture!
-[Error  : Unity Log] Releasing render texture that is set as Camera.targetTexture!
-[Info   : Unity Log] unsubscribing from steam callbacks
+[Info   : Unity Log] Returning week num: 43
+[Info   : Unity Log] week num: 43
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Debug  :ainavt.lc.lethalconfig] 69 mods loaded: ainavt.lc.lethalconfig;me.swipez.melonloader.morecompany;com.rune580.LethalCompanyInputUtils;FlipMods.TooManyEmotes;meow.ModelReplacementAPI;x753.More_Suits;astrodart_VALORANT_AGENTS;atomic.terminalapi;atomic.terminalclock;atomic.terminalhistory;BetterMonitor;Matsuura.HealthMetrics;com.Confusified.InsanityDisplay;Xilophor.StaticNetcodeLib;com.elitemastereric.coroner;com.fumiko.CullFactory;com.github.lethalmods.lethalexpansioncore;com.github.tinyhoot.ShipLobby;com.steven.lethalcompany.boomboxmusic;com.weliveinasociety.CustomEmotesAPI;com.zduniusz.lethalcompany.lbtokg;ControlCompany.ControlCompany;ControlCompany.ControlCompanyFilter;CustomSounds;darmuh.OpenLib;darmuh.suitsTerminal;de.vasanex.ItemQuickSwitchMod;dev.bobbie.fixrpclag;discount.alert;DoorFix;DoorlessStorage;evaisa.lethallib;Entity378.sellbodies;FlipMods.FasterItemDropship;FlipMods.LetMeLookDown;FlipMods.ObjectVolumeController;Hexnet.lethalcompany.suitsaver;HoldScanButton;Kittenji.MaxwellScrap;kruumy.CustomFOV;kruumy.FixResolution;LCSoundTool;lekakid.lcsignaltranslatoraligner;LethalSnapProject;Miodec.HidePlayerNames;MoonJuice.RubberChicken;MoreItems;OldLLLLib;MrovLib;orangesoft.UnlimitedSellMod;Pinta.PintoBoy;PopleZoo.BetterItemScan;PushCompany;rr.Flashlight;rr.Walkie;RugbugRedfern.SkinwalkerMod;Ryokune.BetterLobbies;Solar.Performance;SolosPosterChanger;SpectateEnemy;sunnobunno.YippeeMod;suskitech.LCAlwaysHearActiveWalkie;Swaggies.BetterPaycheck;TDP.CoilHeadStare;TerminalFormatter;TestAccount666.ShipWindows;TooManySuits;twig.latecompany;Zaggy1024.TwoRadarMaps
+[Debug  :ainavt.lc.lethalconfig] ainavt.lc.lethalconfig : LethalConfig : 1.4.2
+[Debug  :ainavt.lc.lethalconfig] me.swipez.melonloader.morecompany : MoreCompany : 1.9.4
+[Debug  :ainavt.lc.lethalconfig] com.rune580.LethalCompanyInputUtils : Lethal Company Input Utils : 0.7.7
+[Debug  :ainavt.lc.lethalconfig] FlipMods.TooManyEmotes : TooManyEmotes : 2.2.4
+[Debug  :ainavt.lc.lethalconfig] meow.ModelReplacementAPI : ModelReplacementAPI : 2.4.10
+[Debug  :ainavt.lc.lethalconfig] x753.More_Suits : More Suits : 1.4.3
+[Debug  :ainavt.lc.lethalconfig] astrodart_VALORANT_AGENTS : VALORANT_AGENTS : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] atomic.terminalapi : Terminal Api : 1.5.4
+[Debug  :ainavt.lc.lethalconfig] atomic.terminalclock : Terminal Clock : 1.0.5
+[Debug  :ainavt.lc.lethalconfig] atomic.terminalhistory : Terminal History : 1.0.4
+[Debug  :ainavt.lc.lethalconfig] BetterMonitor : BetterMonitor : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] Matsuura.HealthMetrics : HealthMetrics : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] com.Confusified.InsanityDisplay : InsanityDisplay : 1.2.2
+[Debug  :ainavt.lc.lethalconfig] Xilophor.StaticNetcodeLib : StaticNetcodeLib : 1.1.1
+[Debug  :ainavt.lc.lethalconfig] com.elitemastereric.coroner : Coroner : 2.2.0
+[Debug  :ainavt.lc.lethalconfig] com.fumiko.CullFactory : CullFactory : 1.4.2
+[Debug  :ainavt.lc.lethalconfig] com.github.lethalmods.lethalexpansioncore : LethalExpansion(core) : 1.3.15
+[Debug  :ainavt.lc.lethalconfig] com.github.tinyhoot.ShipLobby : ShipLobby : 1.0.2
+[Debug  :ainavt.lc.lethalconfig] com.steven.lethalcompany.boomboxmusic : Custom Boombox Music : 1.4.0
+[Debug  :ainavt.lc.lethalconfig] com.weliveinasociety.CustomEmotesAPI : Custom Emotes API : 1.15.4
+[Debug  :ainavt.lc.lethalconfig] com.zduniusz.lethalcompany.lbtokg : LbToKg : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] ControlCompany.ControlCompany : ControlCompany : 1.3.2
+[Debug  :ainavt.lc.lethalconfig] ControlCompany.ControlCompanyFilter : ControlCompanyFilter : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] CustomSounds : Custom Sounds : 2.3.2
+[Debug  :ainavt.lc.lethalconfig] darmuh.OpenLib : OpenLib : 0.1.8
+[Debug  :ainavt.lc.lethalconfig] darmuh.suitsTerminal : suitsTerminal : 1.4.5
+[Debug  :ainavt.lc.lethalconfig] de.vasanex.ItemQuickSwitchMod : ItemQuickSwitchMod : 1.1.0
+[Debug  :ainavt.lc.lethalconfig] dev.bobbie.fixrpclag : FixRPCLag : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] discount.alert : DiscountAlert : 2.3.0.0
+[Debug  :ainavt.lc.lethalconfig] DoorFix : DoorFix : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] DoorlessStorage : DoorlessStorage : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] evaisa.lethallib : LethalLib : 0.16.1
+[Debug  :ainavt.lc.lethalconfig] Entity378.sellbodies : Sell Bodies : 1.10.1
+[Debug  :ainavt.lc.lethalconfig] FlipMods.FasterItemDropship : FasterItemDropship : 1.3.1
+[Debug  :ainavt.lc.lethalconfig] FlipMods.LetMeLookDown : LetMeLookDown : 1.0.2
+[Debug  :ainavt.lc.lethalconfig] FlipMods.ObjectVolumeController : ObjectVolumeController : 1.1.0
+[Debug  :ainavt.lc.lethalconfig] Hexnet.lethalcompany.suitsaver : Suit Saver : 1.2.1
+[Debug  :ainavt.lc.lethalconfig] HoldScanButton : HoldScanButton : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] Kittenji.MaxwellScrap : Maxwell Scrap : 1.0.1
+[Debug  :ainavt.lc.lethalconfig] kruumy.CustomFOV : Custom FOV : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] kruumy.FixResolution : Fix Resolution : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] LCSoundTool : LC Sound Tool : 1.5.1
+[Debug  :ainavt.lc.lethalconfig] lekakid.lcsignaltranslatoraligner : SignalTranslatorAligner : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] LethalSnapProject : LethalSnapProject : 1.5.7
+[Debug  :ainavt.lc.lethalconfig] Miodec.HidePlayerNames : Hide Player Names : 1.0.1
+[Debug  :ainavt.lc.lethalconfig] MoonJuice.RubberChicken : Rubber Chicken : 1.0.3
+[Debug  :ainavt.lc.lethalconfig] MoreItems : MoreItems : 1.0.2
+[Debug  :ainavt.lc.lethalconfig] OldLLLLib : OldLLLLib : 0.0.1
+[Debug  :ainavt.lc.lethalconfig] MrovLib : MrovLib : 0.2.4
+[Debug  :ainavt.lc.lethalconfig] orangesoft.UnlimitedSellMod : Unlimited Sell : 1.0.0
+[Debug  :ainavt.lc.lethalconfig] Pinta.PintoBoy : PintoBoy : 2.0.0
+[Debug  :ainavt.lc.lethalconfig] PopleZoo.BetterItemScan : Better Item Scan : 3.0.0.2
+[Debug  :ainavt.lc.lethalconfig] PushCompany : PushCompany : 1.2.0
+[Debug  :ainavt.lc.lethalconfig] rr.Flashlight : Flashlight : 1.5.0
+[Debug  :ainavt.lc.lethalconfig] rr.Walkie : WalkieUse : 1.5.0
+[Debug  :ainavt.lc.lethalconfig] RugbugRedfern.SkinwalkerMod : Skinwalker Mod : 5.0.0
+[Debug  :ainavt.lc.lethalconfig] Ryokune.BetterLobbies : Better Lobbies : 1.1.1
+[Debug  :ainavt.lc.lethalconfig] Solar.Performance : SolarPerformanceEnhancer : 1.3.6
+[Debug  :ainavt.lc.lethalconfig] SolosPosterChanger : Solo's Poster Changer : 1.0
+[Debug  :ainavt.lc.lethalconfig] SpectateEnemy : SpectateEnemy : 2.6.0
+[Debug  :ainavt.lc.lethalconfig] sunnobunno.YippeeMod : Yippee tbh mod : 1.2.4
+[Debug  :ainavt.lc.lethalconfig] suskitech.LCAlwaysHearActiveWalkie : LC Always Hear Active Walkies : 1.4.4
+[Debug  :ainavt.lc.lethalconfig] Swaggies.BetterPaycheck : BetterPaycheck : 0.9.0
+[Debug  :ainavt.lc.lethalconfig] TDP.CoilHeadStare : CoilHeadStare : 1.0.9
+[Debug  :ainavt.lc.lethalconfig] TerminalFormatter : TerminalFormatter : 0.2.23
+[Debug  :ainavt.lc.lethalconfig] TestAccount666.ShipWindows : ShipWindows : 1.10.2
+[Debug  :ainavt.lc.lethalconfig] TooManySuits : TooManySuits : 1.1.2
+[Debug  :ainavt.lc.lethalconfig] twig.latecompany : Late Company : 1.0.17
+[Debug  :ainavt.lc.lethalconfig] Zaggy1024.TwoRadarMaps : TwoRadarMaps : 1.4.2
+[Info   :ainavt.lc.lethalconfig] Generated 37 mod entries.
+[Info   :ainavt.lc.lethalconfig] Generated 486 configs, of which 474 were missing and registered.
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 43
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Info   : Unity Log] Lobby has been created
+[Info   :LethalExpansion(core)] Unloading scene: MainMenu
+[Info   :Custom Boombox Music] Preparing to load AudioClips...
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\aaron-smith-dancin-mp3.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\AC-DC+-+Back+In+Black.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\AC-DC+-+Thunderstruck.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Aerosmith+-+Dream+On.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Arctic+Monkeys+-+505.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Chris Isaak – Wicked Game.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Daft+Punk+&+Pharrell+Williams+-+Get+Lucky.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Djo+-+End+Of+Beginning.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Green+Day+-+Boulevard+Of+Broken+Dreams.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Haddaway - What Is Love.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Kendrick+Lamar+-+Money+Trees+(Feat.+Jay+Rock).mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Kendrick+Lamar+-+Not+Like+Us.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Loona Vamos a la playa slowed & reverb.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Lynyrd+Skynyrd+-+Free+Bird.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Lynyrd+Skynyrd+-+Sweet+Home+Alabama.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Muse+-+Supermassive+Black+Hole.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Nirvana+-+Heart+Shaped+Box+.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Nirvana+-+Smells+Like+Teen+Spirit+.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Roddy+Ricch+-+The+Box.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\sex-drugs-etc(1).mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Skillet - Monster.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Smash Mouth - All Star.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Neighbourhood+-+Sweater+Weather.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Weeknd+-+Blinding+Lights.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Weeknd+feat.+Playboi+Carti+&+Madonna+-+Popular.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+White+Stripes+-+Seven+Nation+Army.mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Travis-Scott-FE-N-(HipHopKit.com)(1).mp3!
+[Info   :Custom Boombox Music] Loading D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Yello - Oh Yeah.mp3!
+[Info   :TooManyEmotes-2.2.4] Loading AudioManager preferences.
+[Info   :LethalExpansion(core)] Finished adding moons and scrap
+[Info   :ControlCompany.ControlCompany] Loading config
+[Info   :ControlCompany.ControlCompany] Done loading keybinds
+[Info   :ShipWindows] Added shutter switch to unlockables list at ID 28
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   : LethalLib] Adding 0 unlockables to unlockables list
+[Info   : LethalLib] Adding 1 items to terminal
+[Info   :TooManyEmotes-2.2.4] Initializing emote menu
+[Info   :TooManyEmotes-2.2.4] Loading AudioManager preferences.
+[Info   :TooManyEmotes-2.2.4] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.4] Initializing animation renderer
+[Info   :LethalExpansion(core)] Loading scene 'SampleSceneRelay'
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Info   : Unity Log] Initialized SkinwalkerNetworkManager
+[Info   :MoreCompany] ResizePlayerCache: 32
+[Info   :MoreCompany] Resizing player cache from 4 to 32 with difference of 28
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   : LethalLib] Found 26 prefabs to fix
+[Info   :ObjectVolumeController-1.1.0] ShipSpeaker volume: 0,58
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] level id: 1
+[Info   : Unity Log] Changing level
+[Info   : Unity Log] Loading from data: for 41 Experimentation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 220 Assurance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 56 Vow: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 71 Gordion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 61 March: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 20 Adamance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 85 Rend: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 7 Dine: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 21 Offense: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 8 Titan: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Weather chance: 0,8862484; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
+[Info   : Unity Log] Placing scene object at saved position: Bunkbeds
+[Info   : Unity Log] Loading placed object position as: (6.87, 2.04, -12.15)
+[Info   : Unity Log] Saving placed position as: (6.87, 2.04, -12.15)
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :TooManyEmotes-2.2.4] Loading game values.
+[Info   :TooManyEmotes-2.2.4] Resetting unlocked emotes.
+[Info   :TooManyEmotes-2.2.4] Loading 0 unlocked emotes for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loading 100 emote credits for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loaded Seed: 627736246
+[Info   : Unity Log] Key 'shipGrabbableItems' does not exist
+[Info   : Unity Log] Loaded vehicle ID: -1
+[Info   :TooManyEmotes-2.2.4] Rotating emote selection in store. Seed: 627736246
+[Info   :ShipWindows] Replacing ship door: Left
+[Info   :ShipWindows] Got new mesh? True
+[Info   :ShipWindows] Replacing ship door: Right
+[Info   :ShipWindows] Got new mesh? True
+[Info   :ShipWindows] Replacing material glass material with: NO_REFRACTION_IRIDESCENCE
+[Info   :ShipWindows] Replacing object ShipInside with ShipInsideWithWindow111...
+[Debug  :LethalExpansion(core)] Hotfix: Removing duplicated routes
+[Debug  :LethalExpansion(core)] 7route duplicated route removed.
+[Debug  :LethalExpansion(core)] Hotfix: 1 duplicated route(s) removed
+[Info   :LethalExpansion(core)] Terminal reset.
+[Info   : Unity Log] Weather chance: 0,8862484; 1
+[Info   :LethalExpansion(core)] Finished updating terminal
+[Info   :TwoRadarMaps] Terminal node 'ViewInsideShipCam 1' will now use a separate texture.
+[Info   : Unity Log] Group credits: 48
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableCar must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableCar.
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
+[Warning: Unity Log] [SpectateEnemies]: Config loaded
+[Warning: Unity Log] Baboon hawk : True
+[Warning: Unity Log] Blob : True
+[Warning: Unity Log] Butler : True
+[Warning: Unity Log] Butler Bees : True
+[Warning: Unity Log] Maneater : True
+[Warning: Unity Log] Centipede : True
+[Warning: Unity Log] Clay Surgeon : True
+[Warning: Unity Log] Crawler : True
+[Warning: Unity Log] Docile Locust Bees : False
+[Warning: Unity Log] Manticoil : False
+[Warning: Unity Log] Tulip Snake : False
+[Warning: Unity Log] Red Locust Bees : False
+[Warning: Unity Log] Girl : True
+[Warning: Unity Log] Flowerman : True
+[Warning: Unity Log] ForestGiant : True
+[Warning: Unity Log] Hoarding bug : True
+[Warning: Unity Log] Jester : True
+[Warning: Unity Log] Masked : True
+[Warning: Unity Log] MouthDog : True
+[Warning: Unity Log] Nutcracker : True
+[Warning: Unity Log] Puffer : True
+[Warning: Unity Log] RadMech : True
+[Warning: Unity Log] Bunker Spider : True
+[Warning: Unity Log] Earth Leviathan : True
+[Warning: Unity Log] Spring : True
+[Warning: Unity Log] Bush Wolf : True
+[Warning: Unity Log] Landmine : False
+[Warning: Unity Log] Turret : False
+[Info   : Unity Log] planet mold states length: $13
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] Starting voice tracking for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.4] Initializing local player.
+[Info   :ShipWindows] Registering network message handlers...
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :ShipWindows] Replacing object Plane.001 with ShipPosters...
+[Info   : Unity Log] [SS]: Waiting for suits to sync...
+[Info   :TooManyEmotes-2.2.4] Rotating emote selection in store. Seed: 627736246
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\aaron-smith-dancin-mp3.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\AC-DC+-+Back+In+Black.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\AC-DC+-+Thunderstruck.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Aerosmith+-+Dream+On.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Arctic+Monkeys+-+505.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Chris Isaak – Wicked Game.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Daft+Punk+&+Pharrell+Williams+-+Get+Lucky.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Djo+-+End+Of+Beginning.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Green+Day+-+Boulevard+Of+Broken+Dreams.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Haddaway - What Is Love.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Kendrick+Lamar+-+Money+Trees+(Feat.+Jay+Rock).mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Kendrick+Lamar+-+Not+Like+Us.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Loona Vamos a la playa slowed & reverb.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Lynyrd+Skynyrd+-+Free+Bird.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Lynyrd+Skynyrd+-+Sweet+Home+Alabama.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Muse+-+Supermassive+Black+Hole.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Nirvana+-+Heart+Shaped+Box+.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Nirvana+-+Smells+Like+Teen+Spirit+.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Roddy+Ricch+-+The+Box.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\sex-drugs-etc(1).mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Skillet - Monster.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Smash Mouth - All Star.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Neighbourhood+-+Sweater+Weather.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Weeknd+-+Blinding+Lights.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+Weeknd+feat.+Playboi+Carti+&+Madonna+-+Popular.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\The+White+Stripes+-+Seven+Nation+Army.mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Travis-Scott-FE-N-(HipHopKit.com)(1).mp3
+[Info   :Custom Boombox Music] Loaded D:\SteamLibrary\steamapps\common\Lethal Company\BepInEx\Custom Songs\Boombox Music\Yello - Oh Yeah.mp3
+[Info   :ShipWindows] Spawning shutter switch...
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   :InsanityDisplay] Enabling compatibilities
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)/WindowsLeft(Clone)/WindowFront/CoverRoot/Cover"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "WindowShutterSwitch(Clone)/PlacementCollider"
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Debug  :ShipWindows] Added listener! :)
+[Debug  :ShipWindows] Updating Scan Node! :>
+[Info   : Unity Log] [SS]: Successfully loaded saved suit. (RedImposter)
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Could not build 3
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   : Unity Log] Leaving current lobby
+[Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
+[Info   :ShipWindows] Unregistering network message handlers...
+[Info   : Unity Log] saved vehicle: -1
+[Info   : MoreItems] Maximum amount of items that can be saved set to 999 just before saving.
+[Info   : Unity Log] Got no ship grabbable items to save.
+[Info   :TooManyEmotes-2.2.4] Saving game values.
+[Info   :TooManyEmotes-2.2.4] Saving 21 unlocked emotes for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Saving 100 emote credits for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Saved Seed: 627736246
+[Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
+[Info   : Unity Log] Resetting unlockables list!
+[Info   : Unity Log] Scene manager is null
+[Info   : Unity Log] Terminal disabled, disabling ESC key listener
+[Info   :ShipWindows] Restoring object Plane.001...
+[Error  : Unity Log] GameObjects can not be made active when they are being destroyed.
+[Info   : Unity Log] DISABLING connection callbacks in round manager
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager OnDestroy
+[Warning:LethalSnapProject] No File found for D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data/../PolaroidPictures/0.png
+[Info   :LethalExpansion(core)] Unloading scene: SampleSceneRelay
+[Info   :MoreCompany] LANMenu startLAN Patched
+[Info   :LethalExpansion(core)] Loading scene 'MainMenu'
+[Info   : Unity Log] Returning week num: 43
+[Info   : Unity Log] week num: 43
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
+[Info   : Unity Log] host button pressed
+[Info   : Unity Log] Returning week num: 43
+[Info   : Unity Log] Displaying menu message
+[Info   : Unity Log] Connection approval callback! Game version of client request: 
+[Info   : Unity Log] Joining client id: 0; Local/host client id: 0
+[Info   : Unity Log] Stopped connection approval callback, as the client in question was the host!
+[Warning: Unity Log] [Netcode] You cannot decline the host connection. The connection was automatically approved.
+[Info   : Unity Log] started host!
+[Info   : Unity Log] are we in a server?: True
+[Info   : Unity Log] Lobby has been created
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :LethalExpansion(core)] Unloading scene: MainMenu
+[Info   :TooManyEmotes-2.2.4] Loading AudioManager preferences.
+[Info   :LethalExpansion(core)] Finished adding moons and scrap
+[Info   :ControlCompany.ControlCompany] Loading config
+[Info   :ControlCompany.ControlCompany] Done loading keybinds
+[Info   :ShipWindows] Added shutter switch to unlockables list at ID 28
+[Info   : Unity Log] Enabling connection callbacks in StartOfRound
+[Info   : Unity Log] Began listening to SceneManager_OnLoadComplete1 on this client
+[Info   : LethalLib] Adding 0 unlockables to unlockables list
+[Info   : LethalLib] Adding 1 items to terminal
+[Info   :TooManyEmotes-2.2.4] Initializing emote menu
+[Info   :TooManyEmotes-2.2.4] Loading AudioManager preferences.
+[Info   :TooManyEmotes-2.2.4] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.4] Initializing animation renderer
+[Info   :LethalExpansion(core)] Loading scene 'SampleSceneRelay'
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :RugbugRedfern.SkinwalkerMod] HOST SENDING CONFIG TO CLIENTS
+[Info   :RugbugRedfern.SkinwalkerMod] SkinwalkerNetworkManager Awake
+[Info   : Unity Log] Initialized SkinwalkerNetworkManager
+[Info   :MoreCompany] ResizePlayerCache: 32
+[Info   :MoreCompany] Resizing player cache from 4 to 32 with difference of 28
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Info   : LethalLib] Found 23 prefabs to fix
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] 1107298560
+[Info   : Unity Log] level id: 0
+[Info   : Unity Log] Changing level
+[Info   : Unity Log] Loading from data: for 41 Experimentation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 220 Assurance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 56 Vow: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 71 Gordion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 61 March: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 20 Adamance: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 85 Rend: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 7 Dine: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 21 Offense: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 8 Titan: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 68 Artifice: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 44 Liquidation: iterations at 0, starting at node #-1
+[Info   : Unity Log] Loading from data: for 5 Embrion: iterations at 0, starting at node #-1
+[Info   : Unity Log] Weather chance: 0,7886578; 1
+[Info   : Unity Log] Item sales percentages #0: 0
+[Info   : Unity Log] Item sales percentages #1: 0
+[Info   : Unity Log] Item sales percentages #2: 0
+[Info   : Unity Log] Item sales percentages #3: 0
+[Info   : Unity Log] Item sales percentages #4: 0
+[Info   : Unity Log] Item sales percentages #5: 0
+[Info   : Unity Log] Item sales percentages #6: 0
+[Info   : Unity Log] Item sales percentages #7: 0
+[Info   : Unity Log] Item sales percentages #8: 0
+[Info   : Unity Log] Item sales percentages #9: 0
+[Info   : Unity Log] Item sales percentages #10: 0
+[Info   : Unity Log] Item sales percentages #11: 0
+[Info   : Unity Log] Item sales percentages #12: 0
+[Info   : Unity Log] Item sales percentages #13: 0
+[Info   : Unity Log] Item sales percentages #14: 0
+[Info   : Unity Log] Item sales percentages #15: 0
+[Info   : Unity Log] Item sales percentages #16: 0
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
+[Info   :TooManyEmotes-2.2.4] Loading game values.
+[Info   :TooManyEmotes-2.2.4] Resetting unlocked emotes.
+[Info   :TooManyEmotes-2.2.4] Loading 0 unlocked emotes for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loading 100 emote credits for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loaded Seed: 862614160
+[Info   : Unity Log] Key 'shipGrabbableItems' does not exist
+[Info   : Unity Log] Loaded vehicle ID: -1
+[Info   :TooManyEmotes-2.2.4] Rotating emote selection in store. Seed: 862614160
+[Info   :ShipWindows] Replacing ship door: Left
+[Info   :ShipWindows] Got new mesh? True
+[Info   :ShipWindows] Replacing ship door: Right
+[Info   :ShipWindows] Got new mesh? True
+[Info   :ShipWindows] Replacing material glass material with: NO_REFRACTION_IRIDESCENCE
+[Info   :ShipWindows] Replacing object ShipInside with ShipInsideWithWindow111...
+[Debug  :LethalExpansion(core)] Hotfix: Removing duplicated routes
+[Debug  :LethalExpansion(core)] Hotfix: 0 duplicated route(s) removed
+[Info   :LethalExpansion(core)] Terminal reset.
+[Info   : Unity Log] Weather chance: 0,7886578; 1
+[Info   :LethalExpansion(core)] Finished updating terminal
+[Info   :TwoRadarMaps] Terminal node 'ViewInsideShipCam 1' will now use a separate texture.
+[Info   : Unity Log] Group credits: 60
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.Route must be instantiated using the ScriptableObject.CreateInstance method instead of new Route.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableItem must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableItem.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableUnlockable must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableUnlockable.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableDecoration must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableDecoration.
+[Warning: Unity Log] TerminalFormatter.BuyableCar must be instantiated using the ScriptableObject.CreateInstance method instead of new BuyableCar.
+[Info   :ainavt.lc.lethalconfig] Injecting mod config menu into quick menu...
+[Info   : Unity Log] planet mold states length: $13
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Taking control of player Player and enabling camera!
+[Info   : Unity Log] Called teleport function on Player (1)
+[Info   : Unity Log] Called teleport function on Player (2)
+[Info   : Unity Log] Called teleport function on Player (3)
+[Info   : Unity Log] Called teleport function on Player (4)
+[Info   : Unity Log] Called teleport function on Player (5)
+[Info   : Unity Log] Called teleport function on Player (6)
+[Info   : Unity Log] Called teleport function on Player (7)
+[Info   : Unity Log] Called teleport function on Player (8)
+[Info   : Unity Log] Called teleport function on Player (9)
+[Info   : Unity Log] Called teleport function on Player (10)
+[Info   : Unity Log] Called teleport function on Player (11)
+[Info   : Unity Log] Called teleport function on Player (12)
+[Info   : Unity Log] Called teleport function on Player (13)
+[Info   : Unity Log] Called teleport function on Player (14)
+[Info   : Unity Log] Called teleport function on Player (15)
+[Info   : Unity Log] Called teleport function on Player (16)
+[Info   : Unity Log] Called teleport function on Player (17)
+[Info   : Unity Log] Called teleport function on Player (18)
+[Info   : Unity Log] Called teleport function on Player (19)
+[Info   : Unity Log] Called teleport function on Player (20)
+[Info   : Unity Log] Called teleport function on Player (21)
+[Info   : Unity Log] Called teleport function on Player (22)
+[Info   : Unity Log] Called teleport function on Player (23)
+[Info   : Unity Log] Called teleport function on Player (24)
+[Info   : Unity Log] Called teleport function on Player (25)
+[Info   : Unity Log] Called teleport function on Player (26)
+[Info   : Unity Log] Called teleport function on Player (27)
+[Info   : Unity Log] Called teleport function on Player (28)
+[Info   : Unity Log] Called teleport function on Player (29)
+[Info   : Unity Log] Called teleport function on Player (30)
+[Info   : Unity Log] Called teleport function on Player (31)
+[Info   : Unity Log] Starting voice tracking for player: ThASh
+[Info   :TooManyEmotes-2.2.4] Loading ThirdPersonEmoteController preferences.
+[Info   :TooManyEmotes-2.2.4] Initializing local player.
+[Info   :ShipWindows] Registering network message handlers...
+[Warning:   OpenLib] Unable to add below text to OtherCommands, it already has this text in it
+[Info   : Unity Log] !!!! ENABLING CAMERA FOR PLAYER: Player
+[Info   : Unity Log] !!!! connectedPlayersAmount: 0
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+InsanityDisplay.UI.IconHandler.AdjustIcon () (at <cc97be55d93945bfbc410dfed74c6ff1>:IL_0044)
+InsanityDisplay.Patches.HUDManagerPatch.SetMeterValues () (at <cc97be55d93945bfbc410dfed74c6ff1>:IL_00BD)
+(wrapper dynamic-method) HUDManager.DMD<HUDManager::Update>(HUDManager)
+
+[Info   :ShipWindows] Replacing object Plane.001 with ShipPosters...
+[Info   : Unity Log] [SS]: Waiting for suits to sync...
+[Info   :TooManyEmotes-2.2.4] Rotating emote selection in store. Seed: 862614160
+[Error  : Unity Log] NullReferenceException
+Stack trace:
+InsanityDisplay.UI.IconHandler.AdjustIcon () (at <cc97be55d93945bfbc410dfed74c6ff1>:IL_0044)
+InsanityDisplay.Patches.HUDManagerPatch.SetMeterValues () (at <cc97be55d93945bfbc410dfed74c6ff1>:IL_00BD)
+(wrapper dynamic-method) HUDManager.DMD<HUDManager::Update>(HUDManager)
+
+[Info   :ShipWindows] Spawning shutter switch...
+[Info   : Unity Log] Has beta?: {hasBeta}
+[Info   : Unity Log] Has beta save data: True
+[Info   :InsanityDisplay] Enabling compatibilities
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)/WindowsLeft(Clone)/WindowFront/CoverRoot/Cover"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "WindowShutterSwitch(Clone)/PlacementCollider"
+[Debug  :ShipWindows] Added listener! :)
+[Debug  :ShipWindows] Updating Scan Node! :>
+[Info   : Unity Log] [SS]: Successfully loaded saved suit. (RedImposter)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Info   : Unity Log] Could not build 3
+[Info   : Unity Log] Could not build 3
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Info   : Unity Log] Could not build 3
+[Info   : Unity Log] Could not build 3
+[Info   : Unity Log] Parsed word: boombox
+[Info   : Unity Log] noun keyword: boombox ; verb keyword: buy ; result null? : False
+[Info   : Unity Log] result: buyBoombox
+[Debug  :TerminalFormatter] Resolved Item: Boombox(Item)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Info   : Unity Log] Parsed word: assurace
+[Info   : Unity Log] noun keyword: assurance ; verb keyword: route ; result null? : False
+[Info   : Unity Log] result: 220route
+[Debug  :ShipWindows] Playing clip: 1
+[Info   :ShipWindows] Opening window in 3,5 seconds...
+[Debug  :ShipWindows] Playing clip: 1
+[Info   :ShipWindows] Opening window in 3,5 seconds...
+[Info   : Unity Log] Changing level server rpc 1
+[Info   : Unity Log] level id: 1
+[Info   : Unity Log] Changing level
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Level id: 1
+[Debug  :ShipWindows] Playing clip: 0
+[Info   : Unity Log] Lever animation: setting bool to True
+[Debug  :ShipWindows] Playing clip: 1
+[Info   : Unity Log] Sent lever animation RPC on this client
+[Info   : Unity Log] Stop special animation on StartGameLever, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Stop special animation F
+[Debug  : ShipLobby] Setting lobby to not joinable.
+[Debug  : ShipLobby] Preventing the closing of Steam lobby.
+[Info   : Unity Log] Loading scene
+[Info   : Unity Log] Scene that began loading: Level2Assurance
+[Info   : Unity Log] LOADING GAME!!!!!
+[Info   : Unity Log] Waiting for all players to load!
+[Debug  :   Coroner] New round started! Resetting causes of death...
+[Debug  :   Coroner] Clearing cause of death for player 0
+[Debug  :   Coroner] Clearing cause of death for player 1
+[Debug  :   Coroner] Clearing cause of death for player 2
+[Debug  :   Coroner] Clearing cause of death for player 3
+[Debug  :   Coroner] Clearing cause of death for player 4
+[Debug  :   Coroner] Clearing cause of death for player 5
+[Debug  :   Coroner] Clearing cause of death for player 6
+[Debug  :   Coroner] Clearing cause of death for player 7
+[Debug  :   Coroner] Clearing cause of death for player 8
+[Debug  :   Coroner] Clearing cause of death for player 9
+[Debug  :   Coroner] Clearing cause of death for player 10
+[Debug  :   Coroner] Clearing cause of death for player 11
+[Debug  :   Coroner] Clearing cause of death for player 12
+[Debug  :   Coroner] Clearing cause of death for player 13
+[Debug  :   Coroner] Clearing cause of death for player 14
+[Debug  :   Coroner] Clearing cause of death for player 15
+[Debug  :   Coroner] Clearing cause of death for player 16
+[Debug  :   Coroner] Clearing cause of death for player 17
+[Debug  :   Coroner] Clearing cause of death for player 18
+[Debug  :   Coroner] Clearing cause of death for player 19
+[Debug  :   Coroner] Clearing cause of death for player 20
+[Debug  :   Coroner] Clearing cause of death for player 21
+[Debug  :   Coroner] Clearing cause of death for player 22
+[Debug  :   Coroner] Clearing cause of death for player 23
+[Debug  :   Coroner] Clearing cause of death for player 24
+[Debug  :   Coroner] Clearing cause of death for player 25
+[Debug  :   Coroner] Clearing cause of death for player 26
+[Debug  :   Coroner] Clearing cause of death for player 27
+[Debug  :   Coroner] Clearing cause of death for player 28
+[Debug  :   Coroner] Clearing cause of death for player 29
+[Debug  :   Coroner] Clearing cause of death for player 30
+[Debug  :   Coroner] Clearing cause of death for player 31
+[Info   :LethalExpansion(core)] Game started.
+[Info   : Unity Log] Stop special animation G
+[Message:ControlCompany.ControlCompany] Current target index: 0
+[Message:ControlCompany.ControlCompany] Setting next target to: ThASh
+[Info   :ControlCompany.ControlCompany] Creating ghost
+[Warning: Unity Log] One Static Lighting Sky component was already set for baking, only the latest one will be used.
+[Info   :LethalExpansion(core)] Loading scene 'Level2Assurance'
+[Info   :LethalExpansion(core)] Disabled TerrainFixer
+[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Debug  :   Coroner] Item dropship spawned! Modifying kill trigger...
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/Girder1 (4)/Collider (2)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/SteelDoorFake/DoorMesh/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (18)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/Map/ModelsIntroScene/ChainlinkFence (17)"
+[Info   : Unity Log] Setting position of ropes
+[Info   : Unity Log] Dungeon finished generating in one frame.
+[Info   : Unity Log] Players finished generating the new floor
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Spawning synced props on server. Length: 23
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (SteamValve(Clone)).
+[Info   : Unity Log] Number of scrap to spawn: 20. minTotalScrapValue: 100. Total value of items: 0.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "EnginePart(Clone)/ScanNode"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "EnginePart(Clone)"
+[Info   : Unity Log] Elevator finished moving!
+[Info   : Unity Log] Turning lights on at start
+[Info   :CullFactory] Level3Flow has finished generating with seed 68305852.
+[Warning: Unity Log] Methods intended to be Burst-compiled in CullFactoryBurstPlugin are not using Burst.
+[Message:ControlCompany.ControlCompany] Setting next target to host
+[Message:ControlCompany.ControlCompany] Reset to default.
+[Message:ControlCompany.ControlCompany] Start of round initialization completed.
+[Info   :ShipWindows] Opening window when System.Func`1[System.Boolean] is true
+[Info   :ShipWindows] Opening window when System.Func`1[System.Boolean] is true
+[Info   : Unity Log] Displaying alert
+[Info   :ControlCompany.ControlCompany] Creating ghost
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Debug  :ShipWindows] Playing clip: 0
+[Info   : Unity Log] startofround: 1; 0
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] clientRPC scrap values length: 20
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Applying clips!
+[Info   :Custom Boombox Music] Total Clip Count: 34
+[Info   :ObjectVolumeController-1.1.0] Boombox volume: 0,754
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+
+Total Scanned: 0
+Ship Total: 0
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+
+Total Scanned: 0
+Ship Total: 0
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Play time of day sfx
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Play music!; ; 0,7
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   :Custom Boombox Music] Playing Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Lynyrd+Skynyrd+-+Free+Bird.mp3
+[Info   :Custom Boombox Music] Playing BoomboxMusic1
+[Info   :Custom Boombox Music] Playing Nirvana+-+Smells+Like+Teen+Spirit+.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Smash Mouth - All Star.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing BoomboxMusic3
+[Info   :Custom Boombox Music] Playing The+Weeknd+feat.+Playboi+Carti+&+Madonna+-+Popular.mp3
+[Info   :Custom Boombox Music] Playing Yello - Oh Yeah.mp3
+[Info   :Custom Boombox Music] Playing Djo+-+End+Of+Beginning.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Kendrick+Lamar+-+Not+Like+Us.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Finished snapping to ladder
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   : Unity Log] Finished ladder sequence
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Daft+Punk+&+Pharrell+Williams+-+Get+Lucky.mp3
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   :Custom Boombox Music] Playing BoomboxMusic1
+[Info   :Custom Boombox Music] Playing BoomboxMusic2
+[Info   :Custom Boombox Music] Playing Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Nirvana+-+Heart+Shaped+Box+.mp3
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Stop special animation on LadderTrigger, by ; Player (GameNetcodeStuff.PlayerControllerB)
+[Info   :Custom Boombox Music] Playing Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing BoomboxMusic4
+[Info   :Custom Boombox Music] Playing BoomboxMusic3
+[Info   :Custom Boombox Music] Playing AC-DC+-+Thunderstruck.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing The+Neighbourhood+-+Sweater+Weather.mp3
+[Info   : Unity Log] ''''
+[Info   : Unity Log] BetterItemScan - log of all items scanned
+
+Total Scanned: 0
+Ship Total: 0
+[Info   : Unity Log] ''''
+[Info   : Unity Log] Waiting for 3 seconds...
+[Info   : Unity Log] Cooldown complete. Hiding UI.
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Smash Mouth - All Star.mp3
+[Info   :Custom Boombox Music] Playing Lynyrd+Skynyrd+-+Free+Bird.mp3
+[Info   :Custom Boombox Music] Playing Loona Vamos a la playa slowed & reverb.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Kendrick+Lamar+-+Money+Trees+(Feat.+Jay+Rock).mp3
+[Info   :Custom Boombox Music] Playing Kendrick+Lamar+-+Not+Like+Us.mp3
+[Info   : Unity Log] Called teleport function on Player
+[Info   : Unity Log] Stop special animation on LadderTrigger, by ; Player (GameNetcodeStuff.PlayerControllerB)
+[Info   :Custom Boombox Music] Playing Muse+-+Supermassive+Black+Hole.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Roddy+Ricch+-+The+Box.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing BoomboxMusic3
+[Info   :Custom Boombox Music] Playing Smash Mouth - All Star.mp3
+[Info   :Custom Boombox Music] Playing BoomboxMusic2
+[Info   :Custom Boombox Music] Playing Post+Malone+&+Swae+Lee+-+Sunflower+(OST+Человек-паук+Через+Вселенные).mp3
+[Info   :Custom Boombox Music] Playing AC-DC+-+Thunderstruck.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Haddaway - What Is Love.mp3
+[Info   :Custom Boombox Music] Playing BoomboxMusic2
+[Info   :Custom Boombox Music] Playing Lynyrd+Skynyrd+-+Free+Bird.mp3
+[Info   :Custom Boombox Music] Playing Kendrick+Lamar+-+Not+Like+Us.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing The+Weeknd+-+Blinding+Lights.mp3
+[Info   :Custom Boombox Music] Playing Travis-Scott-FE-N-(HipHopKit.com)(1).mp3
+[Info   :Custom Boombox Music] Playing AC-DC+-+Back+In+Black.mp3
+[Info   :Custom Boombox Music] Playing Daft+Punk+&+Pharrell+Williams+-+Get+Lucky.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Kendrick+Lamar+-+Money+Trees+(Feat.+Jay+Rock).mp3
+[Info   : Unity Log] Play time of day sfx
+[Info   : Unity Log] Play music!; ; 0,7
+[Info   :Custom Boombox Music] Playing The+Weeknd+-+Blinding+Lights.mp3
+[Info   :Custom Boombox Music] Playing BoomboxMusic4
+[Info   :Custom Boombox Music] Playing Nirvana+-+Heart+Shaped+Box+.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :Custom Boombox Music] Playing Arctic+Monkeys+-+505.mp3
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/SteamLibrary/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
