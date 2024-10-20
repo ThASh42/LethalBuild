@@ -42,6 +42,10 @@ EXIT /B 0
 
 :install_mods
 echo Deleting existing BepInEx folder in game directory if it exists...
+IF EXIST "%GAME_DIR%\BepInEx\config\" (
+  xcopy /e /i /y "%GAME_DIR%\BepInEx\config\" "config_backup\"
+  echo Backup config file
+)
 IF EXIST "%GAME_DIR%\BepInEx\" (
   rd /s /q "%GAME_DIR%\BepInEx"
   echo Previous BepInEx folder deleted.
@@ -54,5 +58,9 @@ IF EXIST "BepInEx\" (
 ) ELSE (
   echo Error: BepInEx folder not found in the repository.
   EXIT /B 1
+)
+IF EXIST "config_backup/" (
+  xcopy /e /i /y "config_backup\" "%GAME_DIR%\BepInEx\config\"
+  echo Copy config file to the game
 )
 EXIT /B 0
