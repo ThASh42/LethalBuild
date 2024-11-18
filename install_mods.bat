@@ -42,14 +42,23 @@ EXIT /B 0
 
 :install_mods
 echo Deleting existing BepInEx folder in game directory if it exists...
+:: Copy custom config files
 IF EXIST "%GAME_DIR%\BepInEx\config\" (
-  xcopy /e /i /y "%GAME_DIR%\BepInEx\config\" "config_backup\"
-  echo Backup config file
+  xcopy /e /i /y "%GAME_DIR%\BepInEx\config\" "custom_config_backup\"
+  echo Backup config file - custom_config_backup
 )
+:: Copy must-rewrite config files
+IF EXIST "BepInEx\config\" (
+  xcopy /e /i /y "BepInEx\config\" "must_rewrite_config_backup\"
+  echo Backup config file - must_rewrite_config_backup
+)
+
+:: Deleating BepInEx folder
 IF EXIST "%GAME_DIR%\BepInEx\" (
   rd /s /q "%GAME_DIR%\BepInEx"
   echo Previous BepInEx folder deleted.
 )
+:: End Deleating
 
 echo Copying BepInEx to game directory...
 IF EXIST "BepInEx\" (
@@ -59,8 +68,12 @@ IF EXIST "BepInEx\" (
   echo Error: BepInEx folder not found in the repository.
   EXIT /B 1
 )
-IF EXIST "config_backup/" (
-  xcopy /e /i /y "config_backup\" "%GAME_DIR%\BepInEx\config\"
-  echo Copy config file to the game
+IF EXIST "custom_config_backup/" (
+  xcopy /e /i /y "custom_config_backup\" "%GAME_DIR%\BepInEx\config\"
+  echo Copy config file to the game - custom_config_backup
+)
+IF EXIST "must_rewrite_config_backup/" (
+  xcopy /e /i /y "must_rewrite_config_backup\" "%GAME_DIR%\BepInEx\config\"
+  echo Copy config file to the game - must_rewrite_config_backup
 )
 EXIT /B 0
