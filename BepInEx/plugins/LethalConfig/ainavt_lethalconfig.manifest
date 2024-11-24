@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3660276013
+CRC: 3167740036
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 6b2fe620d86eb3bc913e4cfbd88b5775
+    Hash: fad720947932e4510eaf3764c78d904e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: 6e570d7085647ae0ef60adb44f1feee1
+    Hash: 2b7a351616635083526acacccdef08b8
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 6b2fe620d86eb3bc913e4cfbd88b5775
+    Hash: fad720947932e4510eaf3764c78d904e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -35,9 +35,9 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
 - Class: 114
-  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
-- Class: 114
   Script: {fileID: 11500000, guid: 30649d3a9faa99c48a7b1166b86bf2a0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 306cc8c2b49d7114eaa3623786fc2126, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 1aa08ab6e0800fa44ae55d278d1423e3, type: 3}
 - Class: 114
@@ -196,6 +196,7 @@ Assets:
 - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Dropdown Icon.psd
 - Assets/AudioClips/CancelSFX.ogg
 - Assets/Font/3270-Regular SDF.asset
+- Assets/Prefabs/Components/SectionHeader Old.prefab
 - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
 - Assets/Sprite/reset-to-default.png
 - Assets/Prefabs/Components/IntSliderItem.prefab
@@ -203,9 +204,9 @@ Assets:
 - Assets/Prefabs/ConfigMenuNotification.prefab
 - Assets/Animations/ConfigMenuNotification/NotificationAppear.anim
 - Assets/Animations/ConfigMenu/ConfigMenuAppear.anim
-- Assets/Prefabs/Components/SectionHeader.prefab
 - Assets/Sprite/UICheckMark.png
 - Packages/com.unity.textmeshpro/Editor Resources/Gizmos/TMP - Input Field Icon.psd
+- Assets/Prefabs/Components/SectionHeader WithButton.prefab
 - Assets/AudioClips/SelectSFX.ogg
 - Assets/Animations/ConfigMenuNotification/NotificationNormal.anim
 - Assets/Prefabs/Components/GenericButtonItem.prefab
