@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CSync</name>
+    </assembly>
+    <members>
+        <member name="T:CSync.Plugin">
+            <summary>
+            The main entry point of this library.<br></br>
+            Holds a reference to the logger and applies patches on load.
+            </summary>
+        </member>
+        <member name="T:CSync.Lib.ConfigManager">
+            <summary>
+            Helper class enabling the user to easily setup CSync.<br></br>
+            Handles config registration, instance syncing and caching of BepInEx files.
+            </summary>
+        </member>
+        <member name="M:CSync.Lib.ConfigManager.Register``1(``0)">
+            <summary>
+            Register a config with CSync, making it responsible for synchronization.<br></br>
+            After calling this method, all clients will receive the host's config upon joining.
+            </summary>
+        </member>
+        <member name="T:CSync.Lib.SyncedConfig`1">
+            <summary>
+            Wrapper class allowing the config class (type parameter) to be synchronized.<br></br>
+            Stores the mod's unique identifier and handles registering and sending of named messages.
+            </summary>
+        </member>
+        <member name="M:CSync.Lib.SyncedConfig`1.#ctor(System.String)">
+            <summary>
+            Wrapper class allowing the config class (type parameter) to be synchronized.<br></br>
+            Stores the mod's unique identifier and handles registering and sending of named messages.
+            </summary>
+        </member>
+        <member name="F:CSync.Lib.SyncedConfig`1.GUID">
+            <summary>
+            The unique name or abbreviation of the implementing mod.<br></br>
+            After passing this to the constructor, it will never change.
+            </summary>
+        </member>
+        <member name="F:CSync.Lib.SyncedConfig`1.SyncRequested">
+            <summary>Invoked on the host when a client requests to sync.</summary>
+        </member>
+        <member name="F:CSync.Lib.SyncedConfig`1.SyncReceived">
+            <summary>Invoked on the client when they receive the host config.</summary>
+        </member>
+        <member name="M:CSync.Lib.SyncedConfig`1.EnableHostSyncControl(CSync.Lib.SyncedEntry{System.Boolean})">
+            <summary>
+            Allow the host to control whether clients can use their own config.
+            This MUST be called after binding the entry parameter.
+            </summary>
+            <param name="hostSyncControlOption">The entry for the host to use in your config file.</param>
+        </member>
+        <member name="M:CSync.Lib.SyncedConfig`1.CSync#Lib#ISynchronizable#RegisterMessages">
+            <summary>
+            Enables the client to request a resync with the host.<br></br>
+            This will only work once messages are registered, usually just before the initial sync.
+            </summary>
+        </member>
+        <member name="T:CSync.Lib.SyncedEntry`1">
+            <summary>
+            Wrapper class around a BepInEx <see cref="T:BepInEx.Configuration.ConfigEntry`1"/>.<br>
+            Can serialize and deserialize itself to avoid runtime errors when syncing configs.</br>
+            </summary>
+        </member>
+        <member name="P:CSync.Lib.SyncedEntry`1.Value">
+            <summary>The value associated with this entry. Can be omitted in some cases.</summary>
+        </member>
+        <member name="E:CSync.Lib.SyncedEntry`1.SettingChanged">
+            <summary>Invoked whenever <see cref="P:CSync.Lib.SyncedEntry`1.Value"/> changes.</summary>
+        </member>
+        <member name="T:CSync.Lib.SyncedInstance`1">
+            <summary>
+            Generic class that can be serialized to bytes.<br></br>
+            Handles syncing and reverting as well as holding references to the client-side and synchronized instances.
+            
+            <para>This class should always be inherited from, never use it directly!</para>
+            </summary>
+        </member>
+        <member name="P:CSync.Lib.SyncedInstance`1.Default">
+            <summary>
+            The instance of the class used to fall back to when reverting.<br></br>
+            All of the properties on this instance are unsynced and always the same.
+            </summary>
+        </member>
+        <member name="P:CSync.Lib.SyncedInstance`1.Instance">
+            <summary>
+            The current instance of the class.<br></br>
+            Properties contained in this instance can be synchronized.
+            </summary>
+        </member>
+        <member name="F:CSync.Lib.SyncedInstance`1.SyncComplete">
+            <summary>Invoked when deserialization of data has finished and <see cref="P:CSync.Lib.SyncedInstance`1.Instance"/> is assigned to.</summary>
+        </member>
+        <member name="F:CSync.Lib.SyncedInstance`1.SyncReverted">
+            <summary>Invoked when <see cref="P:CSync.Lib.SyncedInstance`1.Instance"/> is set back to <see cref="P:CSync.Lib.SyncedInstance`1.Default"/> and no longer synced.</summary>
+        </member>
+        <member name="M:CSync.Lib.SyncedInstance`1.InitInstance(`0)">
+            <summary>Assigns both the default and current instances to the inputted instance.</summary>
+        </member>
+        <member name="M:CSync.Lib.SyncedInstance`1.SyncInstance(System.Byte[])">
+            <summary>Add this instance to the end of the queue.</summary>
+        </member>
+        <member name="T:CSync.Util.ByteSerializer`1">
+            <summary>
+            Responsible for serializing to and from bytes via a <see cref="T:System.IO.MemoryStream"/>.<br></br>
+            Uses <see cref="T:System.Runtime.Serialization.DataContractSerializer"/> as a fast and safer alternative to BinaryFormatter.
+            </summary>
+        </member>
+        <member name="T:CSync.Util.Extensions">
+            <summary>
+            Contains helpful extension methods to aid with synchronization and reduce code duplication.
+            </summary>
+        </member>
+        <member name="M:CSync.Util.Extensions.BindSyncedEntry``1(BepInEx.Configuration.ConfigFile,BepInEx.Configuration.ConfigDefinition,``0,BepInEx.Configuration.ConfigDescription)">
+            <summary>Binds an entry to this file and returns the converted synced entry.</summary>
+            <typeparam name="V">The value type of this entry. Must be supported by BepInEx.</typeparam>
+            <param name="cfg">The current config file we are attempting to bind to.</param>
+            <param name="definition">The key and section defining how this entry is categorised.</param>
+            <param name="defaultVal">The value which this entry has unless the user changes it.</param>
+            <param name="desc">
+            The description indicating what this entry does.<br></br>
+            It can also hold metadata such as a value range to control its functionality.
+            <para>See the BepInEx <see href="https://docs.bepinex.dev/api/BepInEx.Configuration.ConfigDescription.html">documentation</see> for more info.</para>
+            </param>
+            <returns></returns>
+        </member>
+        <member name="M:CSync.Util.Extensions.ToSyncedEntry``1(BepInEx.Configuration.ConfigEntry{``0})">
+            <summary>Converts this entry into a serializable alternative, allowing it to be synced.</summary>
+        </member>
+        <member name="M:CSync.Util.Extensions.GetObject``1(System.Runtime.Serialization.SerializationInfo,System.String)">
+            <summary>Helper method to grab a value from SerializationInfo and cast it to the specified type.</summary>
+        </member>
+        <member name="M:CSync.Util.Extensions.Reconstruct``1(BepInEx.Configuration.ConfigFile,System.Runtime.Serialization.SerializationInfo)">
+            <summary>Binds and returns a new ConfigEntry created from the serialization info.</summary>
+        </member>
+        <member name="M:CSync.Util.Extensions.SendMessage(Unity.Netcode.FastBufferWriter,System.String,System.String,System.UInt64)">
+            <summary>
+            Sends a message using this stream to a client via their ID.<br></br>
+            If no ID is specified, the message will be sent to the host by default.
+            </summary>
+            <param name="stream">The byte stream containing data to be synced.</param>
+            <param name="guid">The mod GUID that this message was invoked from.</param>
+            <param name="label">The name of the message to invoke.</param>
+            <param name="clientId"></param>
+        </member>
+    </members>
+</doc>
